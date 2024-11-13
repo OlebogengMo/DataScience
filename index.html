@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Corelytics</title>
+</head>
+    <div class="banner">
+        <div class="block">
+            <h1>Corelytics</h1>
+            <p>Redifining data analytics</p>
+        </div>
+    </div>
+<body>
+    <div class="block2">
+        <div class="search">
+            <form id="upload-form-churn" enctype="multipart/form-data">
+                <input type="file" id="csv-file-churn" name="file" accept=".csv" required>
+                <button type="button" onclick="uploadFile('churn')">GENERATE</button>
+                <p>CHURN CSV</p>
+                <div id="results-churn"></div>
+            </form>
+        </div>
+    </div>
+    <div class="block3">
+        <div class="search">
+            <form id="upload-form" enctype="multipart/form-data">
+                <input type="file" id="csv-file-sales" name="file" accept=".csv" required>
+                <button type="button" onclick="uploadFile('sales')">GENERATE</button>
+                <p>SALES CSV</p>
+                <div id="results-sales"></div>
+            </form>
+        </div>
+    
+       <script src="app.js"></script>
+</body>
+</html>

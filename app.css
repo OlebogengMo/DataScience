@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image:url(digital-technology-world-business-virtual-600nw-513437779.webp);
+    background-size: cover;
+    font: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.block h1{
+    font-size: 100px;
+    font-style: italic;
+    color: beige;
+    -webkit-text-stroke: 8px;
+    margin-left: 80px;
+}
+.block p{
+    font-size: 30px;
+    color: rgb(199, 199, 35);
+    margin-left: 100px;
+}
+.block2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.block3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.search button {
+     border-radius: 90px;
+     width: 100px;
+     background: transparent;
+     color: whitesmoke;
+}
+.search button:hover {
+    color: rgb(23, 105, 199);
+}
+.block2 p {
+    color: rgb(241, 241, 227);
+}
+.block3 p {
+    color: rgb(241, 241, 227);
+}
